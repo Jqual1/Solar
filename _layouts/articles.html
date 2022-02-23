@@ -32,6 +32,41 @@ layout: page
 {%- assign _type = page.articles.type | default: layout.articles.type -%}
 
 {%- if _articles -%}
+<div class="row">
+    <figure class="col-sm-4">
+        <img class="logos" src="assets\images\hendrixLogo_bob.jpg" alt="image test" height="100" />
+
+    </figure>
+    <figure class="col-sm-4" id="titlecard">
+        <h1>Solar Eclipse Celebration</h1>
+        <!-- to make mobile friendly can make this go away at certain width of screen -->
+    </figure>
+</div>
+<section class="jumbotron" id="countdowntimer">
+  <div class="container" id="countdowntext">
+        <h1 class="display-4">Countdown To Totality</h1>
+  </div>
+  <div class="container" id="countdowntext">
+  <div id="clockdiv">
+    <div class="col-md-3">
+      <span class="days" id="datenumbers"></span>
+      <div class="text">Days</div>
+    </div>
+    <div class="col-md-3">
+      <span class="hours" id="datenumbers"></span>
+      <div class="text">Hours</div>
+    </div>
+    <div class="col-md-3" >
+      <span class="minutes" id="datenumbers"></span>
+      <div class="text">Minutes</div>
+    </div>
+    <div class="col-md-3">
+      <span class="seconds" id="datenumbers"></span>
+      <div class="text">Seconds</div>
+    </div>
+  </div>
+  </div>
+</section>
 
   <div class="layout--articles">
 
