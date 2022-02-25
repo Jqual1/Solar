@@ -2,75 +2,55 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import 
+/* Colors */
+$text-color: #000 !default;
+$muted-text-color: $text-color !default;
+$primary-color: #fff !default;
+$border-color: mix(#fff, $text-color, 75%) !default;
+$footer-background-color: #CA4E00 !default;
+$link-color: #CA4E00 !default;
+$masthead-link-color: #fff !default;
+$masthead-link-color-hover: #fff !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
+/* contrast syntax highlighting (base16) */
+$base00: #000000 !default;
+$base01: #242422 !default;
+$base02: #484844 !default;
+$base03: #6c6c66 !default;
+$base04: #918f88 !default;
+$base05: #b5b3aa !default;
+$base06: #d9d7cc !default;
+$base07: #fdfbee !default;
+$base08: #ff6c60 !default;
+$base09: #e9c062 !default;
+$base0a: #ffffb6 !default;
+$base0b: #a8ff60 !default;
+$base0c: #c6c5fe !default;
+$base0d: #96cbfe !default;
+$base0e: #ff73fd !default;
+$base0f: #b18a3d !default;
 
+@charset "utf-8";
 
-    "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
-    // "skins/chocolate",
-    // "skins/dark",
-    // "skins/default",
-    // "skins/forest",
-    // "skins/ocean",
-    // "skins/orange",
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
-    "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
-    // "skins/highlight/tomorrow",
-    // "skins/highlight/tomorrow-night",
-    // "skins/highlight/tomorrow-night-eighties",
-    // "skins/highlight/tomorrow-night-blue",
-    // "skins/highlight/tomorrow-night-bright",
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
 
-    "common/variables",
-    "common/function",
-    "common/classes",
-    "common/reset",
-    "common/print",
-    "common/components/button",
-    "common/components/image",
-    "common/components/card",
-    "common/components/gallery",
-    "common/components/hero",
-    "common/components/menu",
-    "common/components/modal",
-    "common/components/toc",
-    "common/components/item",
-    "common/components/swiper",
+.masthead {
+    background-color: #CA4E00;
+}
+.greedy-nav {
+    background-color: #CA4E00;
+}
 
-    "animate/fade-in",
-    "animate/fade-in-down",
-    "animate/fade-in-up",
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
 
-    "components/main",
-    "components/header",
-    "components/footer",
-    "components/article-list",
-    "components/article-info",
-    "components/article-header",
-    "components/article-content",
-    "components/article-footer",
-    "components/author-links",
-    "components/author-profile",
-    "components/tags",
-    "components/search",
-    "components/lightbox",
-    "components/extensions",
-
-
-    "additional/alert",
-    "additional/tag",
-    "additional/photo-frame",
-
-    "layout/base",
-    "layout/page",
-
-    "layout/article",
-    "layout/articles",
-    "layout/archive",
-    "layout/home",
-    "layout/landing",
-    "layout/404",
-
-    "custom"
-;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
