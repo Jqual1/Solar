@@ -4,12 +4,12 @@
 
 /* Colors */
 $text-color: #000 !default;
-$muted-text-color: $text-color !default;
+$muted-text-color: #1F5647 !default;
 $primary-color: #fff !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #CA4E00 !default;
 $link-color: #CA4E00 !default;
-$masthead-link-color: #fff !default;
+$masthead-link-color: #000 !default;
 $masthead-link-color-hover: #fff !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
@@ -48,9 +48,3 @@ for details on configuring this project to bundle and minify static web assets. 
 .greedy-nav {
     background-color: #CA4E00;
 }
-
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');

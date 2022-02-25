@@ -10,5 +10,5 @@ The day of the Solar Eclipse and Celebration will be April 8th, 2024, so prepare
 
 This website was made in collaborative effort by Dr. Ann Wright and Database and Web System students to provide information about the celebration and Solar Eclipse, allow students and staff to volunteer for positions during the celebration, buy HDX Solar Eclipse 2024 Merchandise, and submit music that will be played during the celebration. Hendrix invites anyone and everyone to come and celebrate this momentous occasion in the history of Hendrix, Conway, and the greater Central Arkansas history!
 
-![Eclipse](assets/images/TotalSolarEclipse.jpg){: height="250" width="400"}
-![Test](assets/images/SolarEclipseInfo1.jpg){: height="250" width="400"}
+![Eclipse](/blog/assets/images/TotalSolarEclipse.jpg){: height="250" width="400"}
+![Test](/blog/assets/images/SolarEclipseInfo1.jpg){: height="250" width="400"}
