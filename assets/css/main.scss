@@ -9,9 +9,9 @@ $primary-color: #fff !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #CA4E00 !default;
 $link-color: #CA4E00 !default;
-$masthead-link-color: #000 !default;
-$masthead-link-color-hover: #fff !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$masthead-link-color: #fff !default;
+$masthead-link-color-hover: #000 !default;
+$navicon-link-color-hover: mix(#fff, #CA4E00, 20%) !default;
 
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;
@@ -47,4 +47,11 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 .greedy-nav {
     background-color: #CA4E00;
+}
+.greedy-nav .hidden-links {
+    background: #CA4E00
+}
+
+.greedy-nav .visible-links a:before {
+    background: #000
 }
