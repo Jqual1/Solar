@@ -1,5 +1,5 @@
 ---
-title: Posts by Year
+title: All Posts
 layout: posts
 classes: wide
 permalink: /posts/
