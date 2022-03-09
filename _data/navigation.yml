@@ -6,11 +6,7 @@ main:
     url: /about/
   - title: "Merch"
     url: /merch/
-  - title: "Volunteer"
-    url: /volunteer/
   - title: "Contact"
     url: /contact/
-  - title: "Music"
-    url: /music/
   - title: "Eclipse"
     url: /eclipse/
