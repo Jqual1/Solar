@@ -15,9 +15,6 @@ items:
   # You can add as many items as needed
   # Item 1
   - image_path: assets/images/merch/spirit-store-test.jpeg
-    # HEIGHT AND WIDTH NOT WORKING CURRENTLY
-    image_height: "10"
-    image_width: ""
     alt: "spirit store glass"
     title: "Hendrix College rocks glass - 14oz"
     excerpt: 'This is an example of how a merch could look on this page.'
@@ -26,8 +23,6 @@ items:
     btn_class: "btn--primary"
   # Item 2
   - image_path: assets/images/merch/spirit-store-test.jpeg
-    image_height: ""
-    image_width: "10"
     alt: "spirit store glass"
     title: "Hendrix College rocks glass - 14oz"
     excerpt: 'This is an example of how a merch could look on this page.'
